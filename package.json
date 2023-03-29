@@ -6,6 +6,10 @@
   "repository": "git@github.com:ku-aics201-23s-team07/tech-blog.git",
   "author": "DENVER(hajun) <fe.dev.denver@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev" : "vuepress dev docs",
+    "build" : "vuepress build docs"
+  },
   "dependencies": {
     "lts": "^1.2.0",
     "n": "^9.0.1",
