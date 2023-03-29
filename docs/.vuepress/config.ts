@@ -4,4 +4,7 @@ export default defineUserConfig({
   lang: 'ko-KR',
   title: 'Hello VuePress',
   description: 'Just playing around',
+
+  //base: '/until/',
+  dest: './dist',
 })
